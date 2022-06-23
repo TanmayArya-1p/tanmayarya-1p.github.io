@@ -1,5 +1,5 @@
 ## Pi Ngrok Forwarded:
-tcp://4.tcp.ngrok.io:13715
+tcp://0.tcp.in.ngrok.io:17456
 
 ## SCP Command
-```scp -rp sourcedir pi@4.tcp.ngrok.io:/home/pi/Documents -p 13715```
+```scp -p 17456 -rp sourcedir pi@0.tcp.in.ngrok.io:/home/pi/Documents```
